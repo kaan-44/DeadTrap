@@ -56,7 +56,9 @@ def fb(number):
     
     if browser.current_url != 'https://www.facebook.com/login/identify/?ctx=recover':
 	    parser.feed(browser.page_source)
-	    return 'A Facebook account is associated with this number' 
+	    return 'A Facebook account is associated with this number'
+	    browser.quit()
 	    
     else:
 	    return "There is No Facebook account associated with this number"
+	    browser.quit()
