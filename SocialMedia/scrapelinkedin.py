@@ -24,5 +24,7 @@ def linked(number):
     
     if browser.current_url != 'https://www.linkedin.com/checkpoint/rp/request-password-reset':
 	    return "A Linkedin account is associated with this number" 
+	    browser.quit()
     else:
 	    return "There is No Linkedin account associated with this number"
+	    browser.quit()
