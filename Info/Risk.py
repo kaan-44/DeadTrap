@@ -52,3 +52,5 @@ def risk(number):
 
     time.sleep(20)
     parser.feed(browser.page_source)
+    return "No risk Detected"
+    browser.quit()
