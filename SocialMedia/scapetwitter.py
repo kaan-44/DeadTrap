@@ -56,6 +56,8 @@ def twit(number):
     if browser.current_url != 'https://twitter.com/account/begin_password_reset':
 	    parser.feed(browser.page_source)
 	    return "A Twitter account is associated with this number" 
+	    browser.quit()
 	
     else:
 	    return "There is No Twitter account associated with this number"
+	    browser.quit()
