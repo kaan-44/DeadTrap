@@ -5,6 +5,7 @@ OS_bit = (round(math.log(sys.maxsize,2)+1))
 
 os.system("sudo apt-get install python3-pip")   
 os.system("pip3 install -U selenium")
+os.system("pip3 install python-dotenv")
 
 print("\n \n {} \n \n".format(OS_bit))
 
