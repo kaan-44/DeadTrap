@@ -1,5 +1,6 @@
 ![alt tag](https://media.discordapp.net/attachments/671809375807209472/722384372963082320/image-removebg-preview.png?width=381&height=396) 
-# An OSINT tool to gather information about the real owner of a phone number
+
+# An OSINT tool track down footprints of a phone number
 
 ## Snapshot
 Couldnt show the full scan cuz it was too long to capture it in one screen hence only showed the part which i thought was important
