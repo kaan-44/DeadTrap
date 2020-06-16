@@ -1,4 +1,5 @@
-![alt tag](https://media.discordapp.net/attachments/671809375807209472/722382323064242196/Screenshot_20200616_155703.png)
+![alt tag](https://media.discordapp.net/attachments/671809375807209472/722384372963082320/image-removebg-preview.png?width=381&height=396)
+
 An OSINT tool to gather information about the real owner of a phone number
 
 ## Snapshot
