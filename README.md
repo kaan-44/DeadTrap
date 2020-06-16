@@ -1,4 +1,4 @@
-# DeadTrap
+![alt tag](https://media.discordapp.net/attachments/671809375807209472/722382323064242196/Screenshot_20200616_155703.png)
 An OSINT tool to gather information about the real owner of a phone number
 
 ## Snapshot
