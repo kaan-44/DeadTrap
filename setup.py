@@ -9,7 +9,7 @@ os.system("pip3 install -U selenium")
 print("\n \n {} \n \n".format(OS_bit))
 
 
-os.system('sudo firefox -v > tmp')                  
+os.system('firefox -v > tmp')                  
 result   =  open('tmp', 'r').read()            
 marker   = result.find('Firefox') + 8          
 version  = result[marker:].splitlines()[0]     
