@@ -5,8 +5,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.options import Options
 import time
+import sys
 
-def linked(number):
+def insta(number):
     
     optionss = webdriver.FirefoxOptions()
     optionss.headless = True
@@ -15,17 +16,16 @@ def linked(number):
 
     browser = webdriver.Firefox(options=optionss)
     
-    browser.get('https://www.linkedin.com/checkpoint/rp/request-password-reset')
+    browser.get('https://www.instagram.com/accounts/password/reset/')
 
-    search = browser.find_element_by_css_selector('#username')
+    search = browser.find_element_by_css_selector('#feff36e4590dbc')
     search.send_keys(number , Keys.ENTER)
 
-    time.sleep(20)
+    time.sleep(30)
     
-    if browser.current_url != 'https://www.linkedin.com/checkpoint/rp/request-password-reset':
-	    return "A Linkedin account is associated with this number" 
+    if browser.current_url != 'https://www.instagram.com/accounts/password/reset/':
+	    return "An Instagram account is associated with this number" 
 	    browser.quit()
     else:
-	    return "There is No Linkedin account associated with this number"
+	    return "There is No Instagram account associated with this number"
 	    browser.quit()
- 
