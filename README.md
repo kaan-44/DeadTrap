@@ -15,6 +15,7 @@ Couldnt show the full scan cuz it was too long to capture it in one screen hence
 Type the following commands in your terminal if you are on Linux
 ```
 git clone https://github.com/Chr0m0s0m3s/DeadTrap.git
+cd DeadTrap
 python3 setup.py
 ```
 If you are on Windows then you have to setup geckodriver first ( Download the latest Version Only )
