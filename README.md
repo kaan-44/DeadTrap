@@ -3,7 +3,7 @@
 ### An OSINT tool track down footprints of a phone number
 <p align="center">
   <a href="https://chr0m0s0m3s.github.io/DeadTrap/">Official Website</a>
-
+</p>
 ## Snapshot
 Couldnt show the full scan cuz it was too long to capture it in one screen hence only showed the part which i thought was important
 ![alt tag](https://media.discordapp.net/attachments/671809375807209472/722377731182034994/Screenshot_20200616_144711.png?width=794&height=396)
