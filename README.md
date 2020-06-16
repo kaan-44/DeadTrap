@@ -2,6 +2,7 @@
 An OSINT tool to gather information about the real owner of a phone number
 
 ## Snapshot
+Couldnt show the full scan cuz it was too long to capture it in one screen hence only showed the part which i thought was important
 ![alt tag](https://media.discordapp.net/attachments/671809375807209472/722377731182034994/Screenshot_20200616_144711.png?width=794&height=396)
 
 ## How it works
