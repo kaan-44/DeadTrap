@@ -28,3 +28,6 @@ python3 main.py
 
 then enter the phone number along with the country prefix and you are ready to go
 
+### Lincense
+[![license](https://img.shields.io/github/license/Chr0m0s0m3s/DeadTrap.svg?style=flat-square)](https://github.com/Chr0m0s0m3s/DeadTrap/blob/master/LICENSE)
+
