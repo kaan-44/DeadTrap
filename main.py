@@ -19,6 +19,7 @@ from SocialMedia.scrapelinkedin import linked
 from Info.Spamcalls import risk
 from Info.fouroneone import fouroneone
 from Info.google import trace
+from Info.googlemaps import maps
 from Style.banner import banner
 
 dotenv_path = join(dirname(__file__), '.env')
@@ -162,6 +163,7 @@ Country Prefix: {str(answer['country_prefix'])}
 Country Code: {str(answer['country_code'])}
 Country Name: {str(answer['country_name'])}
 Location: {str(answer['location'])}
+Maps : maps({str(answer['location'])})
 Carrier: {str(answer['carrier'])}
 Line Type: {str(answer['line_type'])}'''+colors.green)
     
