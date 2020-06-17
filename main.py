@@ -130,6 +130,7 @@ Country Prefix: {str(answer['country_prefix'])}
 Country Code: {str(answer['country_code'])}
 Country Name: {str(answer['country_name'])}
 Location: {str(answer['location'])}
+Maps : {maps(str(answer['location']))}
 Carrier: {str(answer['carrier'])}
 Line Type: {str(answer['line_type'])}'''+colors.green)
     
@@ -162,7 +163,7 @@ Country Prefix: {str(answer['country_prefix'])}
 Country Code: {str(answer['country_code'])}
 Country Name: {str(answer['country_name'])}
 Location: {str(answer['location'])}
-Maps : maps({str(answer['location'])})
+Maps : {maps(str(answer['location']))}
 Carrier: {str(answer['carrier'])}
 Line Type: {str(answer['line_type'])}'''+colors.green)
     
