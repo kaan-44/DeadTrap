@@ -25,7 +25,6 @@ from Style.banner import banner
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 api_key = os.getenv('NUMVERIFY_API_KEY')
-print(api_key)
 n = []
 
 class colors:
