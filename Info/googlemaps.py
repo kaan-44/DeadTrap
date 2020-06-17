@@ -18,5 +18,6 @@ def maps(location):
 			    item = title , link
 			
 			    results.append(item)
+	    print('\n'.join(map(str, results)))
 	    
-	    return f"Location on google maps : {'\n'.join(map(str, results))}"
+	    return "\n ^^Map Location"
