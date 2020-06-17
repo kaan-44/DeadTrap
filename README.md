@@ -20,6 +20,10 @@ python3 setup.py
 ```
 If you are on Windows then you have to setup geckodriver first ( Download the latest Version Only )
 Geckodriver download link : https://github.com/mozilla/geckodriver/releases
+## Tweaks
+
+Before Running the 'main.py' file what you need to do is go to the Style folder open banner.py and replace ```path = DeadTrap/Style/logo``` with your own path to the logos folder and do the same for line 11 as well without removing ```{files[index]}' , 'r'```
+
 ## Useage
 type the following commands in your terminal
 ```
