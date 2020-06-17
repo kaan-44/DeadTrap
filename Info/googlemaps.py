@@ -18,5 +18,5 @@ def trace(location):
 			    item = title , link
 			
 			    results.append(item)
-	    print('\n'.join(map(str, results)))
-	    return "Scan Completed"
+	    
+	    return f"Location on google maps : {'\n'.join(map(str, results))}"
